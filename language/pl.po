@@ -11,14 +11,182 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: <lhdb@kul.pl>\n"
-"PO-Revision-Date: 2025-03-23 17:00+0100\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2025-03-26 12:02+0100\n"
 "Last-Translator: Przemysław Grądzki <pgradzki@lhdb.kul.pl>, 2025\n"
 "Language-Team: \n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
 
 #: src/View/Helper/SsoLoginLinks.php:62
 msgid "Login with your identity provider"
 msgstr "Zaloguj się za pomocą swojego dostawcy tożsamości"
+
+#: application/src/Site/BlockLayout/Media.php:42
+msgid "Options"
+msgstr "Opcje"
+
+#: application/src/View/Helper/SearchFilters.php:36
+#: application/view/common/advanced-search/properties.phtml:80
+msgid "starts with"
+msgstr "zaczyna się od"
+
+#: application/src/View/Helper/SearchFilters.php:37
+#: application/view/common/advanced-search/properties.phtml:81
+msgid "does not start with"
+msgstr "nie zaczyna się od"
+
+#: application/src/View/Helper/SearchFilters.php:38
+#: application/view/common/advanced-search/properties.phtml:82
+msgid "ends with"
+msgstr "kończy się na"
+
+#: application/src/View/Helper/SearchFilters.php:39
+#: application/view/common/advanced-search/properties.phtml:83
+msgid "does not end with"
+msgstr "nie kończy się na"
+
+#: application/src/View/Helper/SearchFilters.php:40
+#: application/view/common/advanced-search/properties.phtml:84
+msgid "is resource with ID"
+msgstr "jest zasobem o identyfikatorze"
+
+#: application/src/View/Helper/SearchFilters.php:41
+#: application/view/common/advanced-search/properties.phtml:85
+msgid "is not resource with ID"
+msgstr "nie jest zasobem o identyfikatorze"
+
+#: application/src/View/Helper/SearchFilters.php:51
+#: application/view/common/advanced-search/fulltext.phtml:6
+msgid "Search full-text"
+msgstr "Wyszukiwanie pełnotekstowe"
+
+#: application/src/View/Helper/SearchFilters.php:216
+msgid "Has media"
+msgstr "Zawiera media"
+
+#: application/src/View/Helper/SearchFilters.php:216
+msgid "Has no media"
+msgstr "Nie zawiera mediów"
+
+#: application/view/common/advanced-search/has-media.phtml:4
+msgid "Search by media presence"
+msgstr "Szukaj według zawartości mediów"
+
+#: application/view/common/advanced-search/has-media.phtml:9
+msgid "Select media presence…"
+msgstr "Wybierz..."
+
+#: application/view/common/advanced-search/ids.phtml:12
+msgid "Search by ID"
+msgstr "Szukaj według identyfikatora"
+
+#: application/src/Form/View/Helper/FormCollectionElementGroupsCollapsible.php:33
+#: application/src/Media/Ingester/Upload.php:75
+#: application/view/common/advanced-search/ids.phtml:13
+#: application/view/common/advanced-search/item-sets.phtml:44
+#: application/view/common/advanced-search/owner.phtml:4
+#: application/view/common/advanced-search/resource-class.phtml:25
+#: application/view/common/advanced-search/resource-template.phtml:17
+#: application/view/common/advanced-search/site.phtml:4
+#: application/view/common/form-row.phtml:16
+#: application/view/common/resource-values.phtml:66
+#: application/view/omeka/admin/item-set/sidebar-select.phtml:19
+#: application/view/omeka/admin/item/sidebar-select.phtml:28
+msgid "Expand"
+msgstr "Rozwiń"
+
+#: application/view/common/advanced-search/ids.phtml:15
+msgid "Searches for resources by Omeka S ID. You can search for more than one ID by separating them by commas."
+msgstr "Wyszukuje zasoby według Omeka S ID. Można wyszukiwać więcej niż jeden identyfikator, oddzielając je przecinkami."
+
+#: application/view/common/advanced-search/item-sets.phtml:53
+msgid "Condition"
+msgstr "Warunek"
+
+#: application/view/common/advanced-search/item-sets.phtml:54
+msgid "In"
+msgstr "Przypisany do"
+
+#: application/view/common/advanced-search/item-sets.phtml:55
+msgid "Not in"
+msgstr "Nie przypisany do"
+
+#: application/view/common/advanced-search/properties.phtml:33
+msgid "Query text"
+msgstr "Treść zapytania"
+
+#: application/src/ColumnType/Value.php:43
+#: application/view/common/advanced-search/properties.phtml:67
+msgid "Property"
+msgstr "Właściwości"
+
+#: application/view/common/advanced-search/resource-class.phtml:27
+msgid "Searches for resources that are any of these classes."
+msgstr "Wyszukuje zasoby należące do dowolnej z tych klas."
+
+#: application/view/common/advanced-search/sort.phtml:20
+msgid "Select sort by…"
+msgstr "Wybierz..."
+
+#: application/view/common/advanced-search/sort.phtml:26
+msgid "Select sort order…"
+msgstr "Wybierz..."
+
+#: application/view/common/browse-defaults-form.phtml:20
+#: application/view/common/sort-selector.phtml:13
+msgid "Ascending"
+msgstr "Rosnąco"
+
+#: application/view/common/browse-defaults-form.phtml:19
+#: application/view/common/sort-selector.phtml:14
+msgid "Descending"
+msgstr "Malejąco"
+
+#: application/view/common/data-type-wrapper.phtml:19
+#: application/view/common/value-annotation-wrapper.phtml:12
+#: application/view/omeka/admin/item/manage-media.phtml:64
+#: application/view/omeka/admin/resource-template/show-property-row.phtml:42
+msgid "Restore value"
+msgstr "Przywróć wartość"
+
+#: application/view/common/resource-page-block-layout/resource-class.phtml:7
+msgid "Resource class"
+msgstr "Klasa zasobu"
+
+#: application/view/common/property-form-batch-edit.phtml:54
+#: application/view/omeka/admin/item-set/form.phtml:13
+#: application/view/omeka/admin/item/form.phtml:14
+#: application/view/omeka/admin/media/edit.phtml:13
+msgid "Values"
+msgstr "Wartości"
+
+#: application/src/Stdlib/Browse.php:124
+#, php-format
+msgid "Custom (%s)"
+msgstr "Niestandardowe (%s)"
+
+#: application/src/DataType/Resource/ItemSet.php:17
+msgid "Item Set"
+msgstr "Zestaw pozycji"
+
+#: application/src/View/Helper/ItemSetSelect.php:39
+msgid "Select item set…"
+msgstr "Wybierz..."
+
+#: application/view/common/advanced-search/properties.phtml:70
+msgid "[Any Property]"
+msgstr "[Dowolna właściwość]"
+
+#. Class label for Dublin Core Type:Event
+#. Class label for Bibliographic Ontology:Event
+msgid "Event"
+msgstr "Wydarzenie"
+
+#. Class label for Bibliographic Ontology:Document
+#. Class label for Friend of a Friend:Document
+msgid "Document"
+msgstr "Dokument"
