@@ -6,7 +6,7 @@ return [
         'translation_file_patterns' => [
             [
                 'type' => 'gettext',
-                'base_dir' => OMEKA_PATH . '/modules/LHDBlang/language',
+                'base_dir' => dirname(__DIR__) . '/language',
                 'pattern' => '%s.mo',
                 'text_domain' => null,
             ],
