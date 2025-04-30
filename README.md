@@ -42,9 +42,9 @@ Usage
 ### Preparation of templates
 
 Simply update the translations files in the directory `language/` of the
-module: the main one `template.pot` and each translation like `fr.po` and `fr.mo`.
+module: the main one `template.pot` and each translation like `fr.po`.
 You can add any language, but respect the names of the files (see `application/language/`)
-and copy the two files `.po` and `.mo` for each language.
+and copy the `.po` file for each language.
 
 Quick hack to create the base `template.pot` file automatically:
 
@@ -55,9 +55,6 @@ Quick hack to create the base `template.pot` file automatically:
 # Create main template.
 gulp i18n:module:template --module-name=my-theme
 
-# If your editor can’t compile .po files, you can run this command after translating:
-gulp i18n:module:compile --module-name=my-theme
-```
 - then copy all the files inside `language` into the directory `language` of
   this module;
 - finally, remove the theme from the directory `modules`.
